@@ -17,4 +17,4 @@ This is a burger store application built with Node, Express, Sequilize and MySQL
 
 
 ## Screenshot(s)
-![alt text]( "Sequelized-Burger App: Home Page")
+![alt text](https://github.com/ankitadhyani/sequelizedBurger/blob/master/snapshot/Sequelized-Burger.png "Sequelized-Burger App: Home Page")
