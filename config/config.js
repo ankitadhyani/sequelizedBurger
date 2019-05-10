@@ -1,7 +1,11 @@
-{
+// Include the dotenv npm package
+require('dotenv').config();
+
+module.exports = {
+
   "development": {
     "username": "root",
-    "password": "VIS@power9",
+    "password": process.env.DB_PWD,
     "database": "sequelizedburgers_db",
     "host": "127.0.0.1",
     "port": 3306,
@@ -15,10 +19,8 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "use_env_variable":"JAWSDB_URL",
     "dialect": "mysql"
   }
+
 }
